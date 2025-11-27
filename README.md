@@ -3,6 +3,7 @@
 
 <div align="center">
 
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-01-salah)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat&logo=gmail)](mailto:mohammedsalahemam01@gmail.com)
 
@@ -123,12 +124,12 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ### 📈 Performance Overview
   
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedAhmed-01&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=MohammedAhmed-01&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FFA500&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&layout=compact&langs_count=8" alt="Top Languages" />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8" alt="Top Languages" />
 </p>
   
 </div>
@@ -142,7 +143,7 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ### 🎯 Trophy Collection
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAhmed-01&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAhmed-01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
 </p>
   
 </div>
@@ -156,7 +157,7 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ### 📅 My Contribution Journey
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&custom_title=Mohammed's%20Contribution%20Graph&bg_color=0D1117&color=F85D7F&line=F85D7F&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&custom_title=Mohammed's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
 </p>
   
 </div>
@@ -170,7 +171,7 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ### 💭 Quote of the Day
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Random Dev Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random Dev Quote" />
 </p>
 
 <p align="center">
@@ -188,7 +189,7 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ### 🌟 Top Contributions
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=MohammedAhmed-01&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=MohammedAhmed-01&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
 </p>
 
 <p align="center">
