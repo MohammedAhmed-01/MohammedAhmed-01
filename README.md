@@ -124,17 +124,6 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MohammedAhmed-01&layout=compact&theme=dark&hide_border=true" height="150" />
 </p>
 
-## 🏆 GitHub Achievements
-
-<div align="center">
-  
-### 🎯 Trophy Collection
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAhmed-01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
-</p>
-  
-</div>
 
 ---
 
