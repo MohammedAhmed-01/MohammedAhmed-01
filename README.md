@@ -1,5 +1,36 @@
-# 💫 About Me:
-# 👋 About Me<br><br>I'm a **Data Engineer** passionate about building scalable data pipelines, optimizing data workflows, and transforming raw data into reliable, actionable insights. I work across the full data lifecycle — from ingestion and cleaning to modeling, storage, and deployment — using modern data engineering tools and cloud technologies.<br><br>I focus on writing clean, efficient, and production-ready code, following best practices in ETL/ELT design, data quality, and performance optimization. I continuously improve my skills through real-world projects in data integration, analytics engineering, and machine learning pipelines.<br><br><br>#🔧 What I Do<br><br>- 🔄 Design & build **ETL/ELT pipelines**<br>- 🐍 Develop data workflows using **Python & SQL**<br>- 🗄️ Work with **data warehouses, data lakes**, and **cloud platforms**<br>- ✔️ Ensure **data quality, consistency**, and **reliability**<br>- 🤝 Collaborate on **analytics** and **machine learning pipelines**<br><br><br><br># 🚀 What I'm Learning<br><br>- ☁️ Cloud data engineering (**AWS / GCP / Azure**)<br>- ⚡ Big data technologies (**Spark, Kafka, Airflow**)<br>- 📡 Real-time processing & workflow orchestration<br><br><br><br># 💡 My Goal<br><br>To build **scalable, high-impact data solutions** that enable smarter, data-driven decision-making.<br><br><br>📫 **Let's connect!** Feel free to explore my repositories and reach out for collaboration.
+# 👋 About Me
+
+I'm a **Data Engineer** passionate about building scalable data pipelines, optimizing data workflows, and transforming raw data into reliable, actionable insights. I work across the full data lifecycle — from ingestion and cleaning to modeling, storage, and deployment — using modern data engineering tools and cloud technologies.
+
+I focus on writing clean, efficient, and production-ready code, following best practices in ETL/ELT design, data quality, and performance optimization. I continuously improve my skills through real-world projects in data integration, analytics engineering, and machine learning pipelines.
+
+---
+
+## 🔧 What I Do
+
+- 🔄 Design & build **ETL/ELT pipelines**
+- 🐍 Develop data workflows using **Python & SQL**
+- 🗄️ Work with **data warehouses, data lakes**, and **cloud platforms**
+- ✔️ Ensure **data quality, consistency**, and **reliability**
+- 🤝 Collaborate on **analytics** and **machine learning pipelines**
+
+---
+
+## 🚀 What I'm Learning
+
+- ☁️ Cloud data engineering (**AWS / GCP / Azure**)
+- ⚡ Big data technologies (**Spark, Kafka, Airflow**)
+- 📡 Real-time processing & workflow orchestration
+
+---
+
+## 💡 My Goal
+
+To build **scalable, high-impact data solutions** that enable smarter, data-driven decision-making.
+
+---
+
+📫 **Let's connect!** Feel free to explore my repositories and reach out for collaboration.
 
 
 ## 🌐 Socials:
