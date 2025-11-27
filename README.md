@@ -3,7 +3,8 @@
 
 <div align="center">
 
-
+[![Profile Views](https://komarev.com/ghpvc/?username=MohammedAhmed-01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/MohammedAhmed-01)
+[![GitHub Followers](https://img.shields.io/github/followers/MohammedAhmed-01?style=social)](https://github.com/MohammedAhmed-01)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-01-salah)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat&logo=gmail)](mailto:mohammedsalahemam01@gmail.com)
 
@@ -111,6 +112,8 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
+  <img width="12" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="40" alt="postman logo" />
 </div>
 
 ---
@@ -119,47 +122,83 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 
 <div align="center">
   
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&line_height=27" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=320" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+### 📈 Performance Overview
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedAhmed-01&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedAhmed-01&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&layout=compact&langs_count=8" alt="Top Languages" />
+</p>
   
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAhmed-01&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1" alt="trophy stats"  />
+  
+### 🎯 Trophy Collection
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAhmed-01&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
+</p>
+  
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Contribution Activity
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&theme=tokyo-night&hide_border=false" alt="activity graph"  />
+  
+### 📅 My Contribution Journey
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&custom_title=Mohammed's%20Contribution%20Graph&bg_color=0D1117&color=F85D7F&line=F85D7F&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+</p>
+  
 </div>
 
 ---
 
-## ✍️ Random Dev Quote
+## ✍️ Developer Wisdom
+
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote"  />
+  
+### 💭 Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Random Dev Quote" />
+</p>
+
+<p align="center">
+  <i>💡 Keep pushing code, keep learning, keep growing! 💡</i>
+</p>
+  
 </div>
 
 ---
 
-## 🔝 Top Contributed Repositories
+## 🔝 Featured Repositories
+
 <div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=MohammedAhmed-01&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="top repos"  />
+  
+### 🌟 Top Contributions
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=MohammedAhmed-01&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/MohammedAhmed-01?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories" />
+  </a>
+</p>
+  
 </div>
 
 ---
