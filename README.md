@@ -119,16 +119,11 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 ## 📊 GitHub Statistics
 
 <div align="center">
-  
-### 📈 Performance Overview
-  
-<img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true" height="150" alt="stats graph"  />
-<img src="https://streak-stats.demolab.com?user=MohammedAhmed-01&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=MohammedAhmed-01&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" height="150" alt="languages graph"  />
-  
+<a href="https://github.com/MohammedAhmed-01">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="150" src="https://streak-stats.demolab.com?user=MohammedAhmed-01&theme=dark&hide_border=true" />
+</a>
 </div>
-
----
 
 ## 🏆 GitHub Achievements
 
