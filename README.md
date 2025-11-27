@@ -3,8 +3,6 @@
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=MohammedAhmed-01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/MohammedAhmed-01)
-[![GitHub Followers](https://img.shields.io/github/followers/MohammedAhmed-01?style=social)](https://github.com/MohammedAhmed-01)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-01-salah)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat&logo=gmail)](mailto:mohammedsalahemam01@gmail.com)
 
