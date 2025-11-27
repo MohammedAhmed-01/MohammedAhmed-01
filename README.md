@@ -3,8 +3,7 @@
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=MohammedAhmed-01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/MohammedAhmed-01)
-[![GitHub Followers](https://img.shields.io/github/followers/MohammedAhmed-01?style=social)](https://github.com/MohammedAhmed-01)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-01-salah)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat&logo=gmail)](mailto:mohammedsalahemam01@gmail.com)
 
@@ -85,7 +84,7 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
   <img width="12" />
   <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" height="40" alt="tableau logo" />
   <img width="12" />
-  <img src="https://www.vectorlogo.zone/logos/plot_ly/plot_ly-icon.svg" height="40" alt="plotly logo" />
+  <img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" height="40" alt="plotly logo" />
 </div>
 
 ### Machine Learning & AI
@@ -112,21 +111,27 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
-  <img width="12" />
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="40" alt="postman logo" />
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" height="180" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=8" height="180" alt="languages graph"  />
-</div>
-
-<div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=MohammedAhmed-01&theme=tokyonight&hide_border=false" alt="streak stats"  />
+  
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&line_height=27" alt="GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=320" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedAhmed-01&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+  
 </div>
 
 ---
@@ -169,8 +174,6 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammedsalahemam01@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedAhmed-01)
 
-[![Visitor Count](https://visitcount.itsvg.in/api?id=MohammedAhmed-01&icon=5&color=6)](https://visitcount.itsvg.in)
-
 </div>
 
 ---
@@ -178,13 +181,6 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 <div align="center">
   <i>⚡ "Turning data into insights, one pipeline at a time" ⚡</i>
 </div>
-
----
-
-## 💻 Coding Activity
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ---
 
