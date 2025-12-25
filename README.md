@@ -10,7 +10,7 @@
 
 
 ---
-<img align="right" height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG1tdG5zaDZqNWN5eTBoeTk4ZGQzbWI3cTNmeDA0anBxZ2wzbmd6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8m7nAJTYvzNUh54HQm/giphy.gif" alt="data engineering gif"/>
+<img align="right" height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBqcjdtZ2U4dzgycWZhamh3Yjh6anl1dmNyanc3eTRxcXJsbnd4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" alt="data engineering gif"/>
 
 ## 🚀 About Me
 
