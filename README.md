@@ -11,6 +11,7 @@
 
 ---
 <img align="right" height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3E0ZXp0aDN2OW56a2lzZXVxajZkYm8xbHU1OWJuZDM2dThzODJ6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZBED1pP5m8N2/giphy.gif" alt="data engineering gif"/>
+
 ## 🚀 About Me
 
 I'm a **Data Analyst & Data Engineer** passionate about building scalable data pipelines, extracting meaningful insights, and transforming raw data into actionable intelligence. With a strong foundation in **ETL/ELT workflows, SQL, Python**, and **cloud technologies**, I bridge the gap between data infrastructure and analytics to drive data-driven decision-making.
