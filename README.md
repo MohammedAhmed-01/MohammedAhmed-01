@@ -116,13 +116,28 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 
 ---
 
-## 📈 Contribution Activity
+## 📈 GitHub Stats
 
 <div align="center">
 
-<h3>📅 My Contribution Journey</h3>
+<!-- GitHub Stats - most reliable service -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&custom_title=Mohammed's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+<br/><br/>
+
+<!-- WakaTime-style streak using github-readme-streak-stats — very stable -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=MohammedAhmed-01&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 📅 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedAhmed-01&custom_title=Mohammed%27s%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
 
 </div>
 
@@ -132,8 +147,6 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 
 <div align="center">
 
-<h3>💭 Quote of the Day</h3>
-
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random Dev Quote" />
 
 <p><i>💡 Keep pushing code, keep learning, keep growing! 💡</i></p>
@@ -142,29 +155,10 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 
 ---
 
-## 🔝 Featured Repositories
+## 🐍 Contribution Snake
 
 <div align="center">
-
-<h3>🌟 GitHub Stats</h3>
-
-<!-- Replaced rate-limited summary cards with stable github-readme-stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=MohammedAhmed-01&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-<br/><br/>
-
-<a href="https://github.com/MohammedAhmed-01?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories" />
-</a>
-
+  <img src="https://github.com/MohammedAhmed-01/MohammedAhmed-01/blob/output/snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -181,25 +175,17 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammedsalahemam01@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedAhmed-01)
 
-</div>
+<br/><br/>
 
----
+<a href="https://github.com/MohammedAhmed-01?tab=repositories">
+  <img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories" />
+</a>
 
-<div align="center">
-  <i>⚡ "Turning data into insights, one pipeline at a time" ⚡</i>
-</div>
+<br/><br/>
 
----
+<i>⚡ "Turning data into insights, one pipeline at a time" ⚡</i>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://github.com/MohammedAhmed-01/MohammedAhmed-01/blob/output/snake-dark.svg" alt="Snake animation" />
-</div>
-
----
-
-<div align="center">
+<br/><br/>
 
 **💡 Fun Fact:** Data is the new oil, but unlike oil, it's renewable! 🔄
 
