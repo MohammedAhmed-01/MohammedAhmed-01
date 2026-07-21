@@ -148,16 +148,16 @@ I'm a **Data Analyst & Data Engineer** passionate about building scalable data p
 
 <h3>🌟 GitHub Stats</h3>
 
+<!-- Replaced rate-limited summary cards with stable github-readme-stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=MohammedAhmed-01&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+
+<br/><br/>
+
 <img src="https://streak-stats.demolab.com?user=MohammedAhmed-01&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohammedAhmed-01&theme=tokyonight" alt="Profile Summary" />
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MohammedAhmed-01&theme=tokyonight" alt="Repos Per Language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MohammedAhmed-01&theme=tokyonight" alt="Most Commit Language" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAhmed-01&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
 <br/><br/>
 
