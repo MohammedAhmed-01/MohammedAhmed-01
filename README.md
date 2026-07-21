@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohammed Salah</h1>
-<h3 align="center">Data Analyst | Data Engineer | AI & ML Enthusiast</h3>
+<h3 align="center">Data Analyst | Data Engineer </h3>
 
 <div align="center">
 
