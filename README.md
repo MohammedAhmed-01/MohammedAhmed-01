@@ -30,19 +30,9 @@
 
 <br/>
 
-</div>
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/intro.svg" width="100%" alt="I'm a Data Engineer and Data Analyst focused on turning raw data into reliable data pipelines, meaningful insights, and practical Business Intelligence." />
 
-I'm a **Data Engineer** and **Data Analyst** focused on turning raw data into **reliable data pipelines**, **meaningful insights**, and **practical Business Intelligence**.
-
-My experience spans the data lifecycle — from collecting, cleaning, and transforming data to building data models, analytical workflows, and interactive dashboards.
-
-> [!NOTE]
-> **⚙️ On the engineering side**, I work with **Python**, **SQL**, **Apache Spark**, **Kafka**, **Airflow**, **Snowflake**, and **Databricks** to develop ETL/ELT workflows, data pipelines, and scalable data solutions.
-
-> [!IMPORTANT]
-> **📊 On the analytics and BI side**, I use **Power BI**, **Tableau**, **DAX**, **Power Query**, **SQL**, and **Python** to transform complex datasets into dashboards, KPIs, and actionable insights that support business decisions.
-
-<div align="center">
+<br/>
 
 <br/>
 
