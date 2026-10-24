@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/name.svg" width="100%" alt="Mohammed Salah" />
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/name.svg" width="100%" alt="Mohammed Salah - Data & Analytics Engineer" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=55&lines=Building+Scalable+Data+Pipelines+%F0%9F%9A%80;Transforming+Raw+Data+into+Intelligence+%F0%9F%A7%A0;ETL+%7C+ELT+%7C+Cloud+Data+Engineering+%E2%98%81%EF%B8%8F;Turning+Data+into+Decisions+%F0%9F%93%8A;Open+to+Collaborate+%26+Innovate+%F0%9F%A4%9D" alt="Typing SVG" />
@@ -22,7 +22,6 @@
 
 <br/><br/>
 
-<!-- ═════════════ ABOUT ═════════════ -->
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-about.svg" width="100%" alt="About Me" />
 
 <br/><br/>
@@ -31,20 +30,38 @@
 
 <br/>
 
-I'm a **Data Analyst & Data Engineer** who builds scalable data pipelines, extracts meaningful insights, and turns raw data into decisions. With a strong foundation in **ETL/ELT workflows, SQL, Python, and Power BI**, I bridge the gap between data infrastructure and analytics.
+</div>
+
+I'm a **Data Engineer** and **Data Analyst** focused on turning raw data into **reliable data pipelines**, **meaningful insights**, and **practical Business Intelligence**.
+
+My experience spans the data lifecycle — from collecting, cleaning, and transforming data to building data models, analytical workflows, and interactive dashboards.
+
+> [!NOTE]
+> **⚙️ On the engineering side**, I work with **Python**, **SQL**, **Apache Spark**, **Kafka**, **Airflow**, **Snowflake**, and **Databricks** to develop ETL/ELT workflows, data pipelines, and scalable data solutions.
+
+> [!IMPORTANT]
+> **📊 On the analytics and BI side**, I use **Power BI**, **Tableau**, **DAX**, **Power Query**, **SQL**, and **Python** to transform complex datasets into dashboards, KPIs, and actionable insights that support business decisions.
+
+<div align="center">
 
 <br/>
 
-<!-- ═════════════ WHAT I DO ═════════════ -->
-<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-whatido.svg" width="100%" alt="What I Do" />
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-whatido.svg" width="100%" alt="What I Work With" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/whatido.svg" width="100%" alt="What I do" />
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/whatido.svg" width="100%" alt="What I work with" />
 
 <br/>
 
-<!-- ═════════════ TECH STACK ═════════════ -->
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-journey.svg" width="100%" alt="Training and Education" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/journey.svg" width="100%" alt="Training, certification and education" />
+
+<br/>
+
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-tech.svg" width="100%" alt="Tech Stack" />
 
 <br/><br/>
@@ -53,7 +70,6 @@ I'm a **Data Analyst & Data Engineer** who builds scalable data pipelines, extra
 
 <br/>
 
-<!-- ═════════════ PIPELINE ═════════════ -->
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-pipeline.svg" width="100%" alt="How I Build Pipelines" />
 
 </div>
@@ -67,7 +83,7 @@ flowchart LR
     C --> D[("🏛️ Warehouse<br/>Snowflake · PostgreSQL")]
     D --> E["📊 Visualize<br/>Power BI · Tableau"]
     E --> F(["💡 Decisions"])
-    G{{"⏱️ Airflow<br/>Orchestration"}} -.-> B
+    G{"⏱️ Airflow<br/>Orchestration"} -.-> B
     G -.-> C
     G -.-> D
     style A fill:#0D1117,stroke:#58A6FF,color:#fff
@@ -83,7 +99,6 @@ flowchart LR
 
 <br/>
 
-<!-- ═════════════ ANALYTICS ═════════════ -->
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-analytics.svg" width="100%" alt="GitHub Analytics" />
 
 <br/><br/>
@@ -93,7 +108,6 @@ flowchart LR
 
 <br/><br/>
 
-<!-- ═════════════ SNAKE ═════════════ -->
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-snake.svg" width="100%" alt="Contribution Snake" />
 
 <br/><br/>
@@ -106,7 +120,6 @@ flowchart LR
 
 <br/><br/>
 
-<!-- ═════════════ CONNECT ═════════════ -->
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-connect.svg" width="100%" alt="Let's Connect" />
 
 <br/><br/>
