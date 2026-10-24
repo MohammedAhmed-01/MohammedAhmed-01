@@ -6,7 +6,8 @@
 <br/>
 <a href="https://www.linkedin.com/in/mohammed-01-salah"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:mohammedsalahemam01@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/MohammedAhmed-01?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://wa.me/201154274602"><img src="https://img.shields.io/badge/WhatsApp-%2B20%20115%20427%204602-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://mohammedsalahportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-View%20Website-8957E5?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=MohammedAhmed-01&label=Profile%20Views&color=1F6FEB&style=for-the-badge" />
 <br/>
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2EA043?style=flat-square&labelColor=0D1117" />
@@ -113,6 +114,8 @@ flowchart LR
 
 <a href="https://www.linkedin.com/in/mohammed-01-salah"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:mohammedsalahemam01@gmail.com"><img src="https://img.shields.io/badge/Gmail-Drop%20a%20Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://wa.me/201154274602"><img src="https://img.shields.io/badge/WhatsApp-%2B20%20115%20427%204602-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://mohammedsalahportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-View%20Website-8957E5?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="https://github.com/MohammedAhmed-01?tab=repositories"><img src="https://img.shields.io/badge/GitHub-View%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br/><br/>
