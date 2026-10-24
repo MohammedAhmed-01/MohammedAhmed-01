@@ -2,25 +2,18 @@
 
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/name.svg" width="100%" alt="Mohammed Salah - Data & Analytics Engineer" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=55&lines=Building+Scalable+Data+Pipelines+%F0%9F%9A%80;Transforming+Raw+Data+into+Intelligence+%F0%9F%A7%A0;ETL+%7C+ELT+%7C+Cloud+Data+Engineering+%E2%98%81%EF%B8%8F;Turning+Data+into+Decisions+%F0%9F%93%8A;Open+to+Collaborate+%26+Innovate+%F0%9F%A4%9D" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=40&lines=Building+Scalable+Data+Pipelines+%F0%9F%9A%80;Transforming+Raw+Data+into+Intelligence+%F0%9F%A7%A0;ETL+%7C+ELT+%7C+Cloud+Data+Engineering+%E2%98%81%EF%B8%8F;Turning+Data+into+Decisions+%F0%9F%93%8A;Open+to+Collaborate+%26+Innovate+%F0%9F%A4%9D" alt="Typing SVG" /></a>
+<br/>
 <a href="https://www.linkedin.com/in/mohammed-01-salah"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:mohammedsalahemam01@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/MohammedAhmed-01?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=MohammedAhmed-01&label=Profile%20Views&color=1F6FEB&style=for-the-badge" />
-
-<br/><br/>
-
+<br/>
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2EA043?style=flat-square&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/Based%20in-Egypt%20%F0%9F%87%AA%F0%9F%87%AC-58A6FF?style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/Based%20in-Egypt-58A6FF?style=flat-square&labelColor=0D1117" />
 <img src="https://img.shields.io/badge/Focus-Data%20Engineering-8957E5?style=flat-square&labelColor=0D1117" />
 <img src="https://img.shields.io/badge/Class%20of-2027-F2C811?style=flat-square&labelColor=0D1117" />
-
-<br/><br/>
+<br/>
 
 <img src="https://raw.githubusercontent.com/MohammedAhmed-01/MohammedAhmed-01/main/assets/h-about.svg" width="100%" alt="About Me" />
 
