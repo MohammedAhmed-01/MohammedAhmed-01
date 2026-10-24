@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - "scripts/generate_stats.py"
 
 permissions:
   contents: write
@@ -13,29 +15,21 @@ permissions:
 jobs:
   stats:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
-      - name: Profile summary cards
-        uses: vn7n24fr/profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          UTC_OFFSET: 2
-
-      - name: 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - name: Generate stats cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          OUT: assets
+        run: python3 scripts/generate_stats.py
 
-      - name: Commit generated files
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output profile-3d-contrib
+          git add assets/stats-card.svg assets/langs-card.svg
           git diff --cached --quiet || git commit -m "chore: update profile stats"
           git push
