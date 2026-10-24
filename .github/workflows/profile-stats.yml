@@ -25,8 +25,8 @@ jobs:
         run: |
           mkdir -p assets
           python3 - <<'PY'
-          """Generates animated GitHub stats cards as SVG files (no third-party services)."""
-          import json, os, urllib.request, urllib.error
+          import json, os, urllib.request
+          from xml.sax.saxutils import escape
 
           USER = os.environ.get("USERNAME", "MohammedAhmed-01")
           TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -39,31 +39,44 @@ jobs:
               headers = {"Accept": "application/vnd.github+json", "User-Agent": "profile-stats"}
               if TOKEN:
                   headers["Authorization"] = f"Bearer {TOKEN}"
-              req = urllib.request.Request(url, data=data, headers=headers)
-              with urllib.request.urlopen(req, timeout=30) as r:
+              with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers), timeout=30) as r:
                   return json.load(r)
 
 
           def safe(fn, default):
               try:
                   return fn()
-              except Exception as e:  # noqa
+              except Exception as e:
                   print("warn:", e)
                   return default
 
 
           user = safe(lambda: api(f"https://api.github.com/users/{USER}"), {})
-          repos = safe(lambda: api(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner"), [])
           OK = bool(user)
+          repos = []
+          for page in (1, 2, 3):
+              chunk = safe(lambda: api(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner&page={page}"), [])
+              repos += chunk
+              if len(chunk) < 100:
+                  break
           own = [r for r in repos if not r.get("fork")]
           stars = sum(r.get("stargazers_count", 0) for r in own)
           forks = sum(r.get("forks_count", 0) for r in own)
+          print(f"DEBUG user_ok={OK} repos={len(repos)} own={len(own)}")
 
-          langs = {}
-          for r in own[:40]:
+          langs, used = {}, 0
+          for r in own[:60]:
               d = safe(lambda: api(r["languages_url"]), {})
+              if d:
+                  used += 1
               for k, v in d.items():
                   langs[k] = langs.get(k, 0) + v
+          if not langs:  # fallback: primary language of every repo (forks included)
+              for r in repos:
+                  if r.get("language"):
+                      langs[r["language"]] = langs.get(r["language"], 0) + 1000
+                      used += 1
+          print(f"DEBUG languages={langs}")
 
           contrib = None
           if TOKEN:
@@ -71,7 +84,7 @@ jobs:
                    'totalPullRequestContributions totalIssueContributions '
                    'contributionCalendar { totalContributions } } } }' % USER)
               res = safe(lambda: api("https://api.github.com/graphql", json.dumps({"query": q}).encode()), {})
-              contrib = (res.get("data", {}).get("user") or {}).get("contributionsCollection")
+              contrib = ((res.get("data") or {}).get("user") or {}).get("contributionsCollection")
 
           metrics = [
               ("Repositories", user.get("public_repos", len(own)), "#58A6FF"),
@@ -87,7 +100,7 @@ jobs:
                   ("Contributions (1y)", contrib["contributionCalendar"]["totalContributions"], "#FF7AC6"),
               ]
           else:
-              metrics += [("Forks", forks, "#3FB950"), ("Total Repos Listed", len(repos), "#FF9900")]
+              metrics += [("Forks", forks, "#3FB950"), ("Repos Listed", len(repos), "#FF9900")]
 
           SHINE = '''<linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="490" y2="0" spreadMethod="repeat">
           <stop offset="0" stop-color="#58A6FF"/><stop offset="0.33" stop-color="#8957E5"/><stop offset="0.66" stop-color="#FF7AC6"/><stop offset="1" stop-color="#58A6FF"/>
@@ -97,11 +110,15 @@ jobs:
 
           def title(t):
               return (f'<text x="245" y="42" text-anchor="middle" font-family="{FONT}" font-size="20" font-weight="800" '
-                      f'letter-spacing="4" fill="url(#shine)">{t}</text>'
-                      '<rect x="120" y="54" width="250" height="2" rx="1" fill="url(#shine)"/>')
+                      f'letter-spacing="4" fill="url(#shine)">{t}</text><rect x="120" y="54" width="250" height="2" rx="1" fill="url(#shine)"/>')
 
 
-          # ── stats card ──
+          def msg(lines):
+              return "".join(
+                  f'<text x="245" y="{128 + i*26}" text-anchor="middle" font-family="{FONT}" font-size="13.5" fill="#8B949E">{escape(l)}</text>'
+                  for i, l in enumerate(lines))
+
+
           cells = []
           for i, (label, val, color) in enumerate(metrics):
               col, row = i % 2, i // 2
@@ -111,11 +128,9 @@ jobs:
           <rect x="0" y="8" width="4" height="24" rx="2" fill="{color}"/>
           <text x="18" y="26" font-family="{FONT}" font-size="12.5" fill="#8B949E">{label}</text>
           <text x="198" y="27" text-anchor="end" font-family="{FONT}" font-size="19" font-weight="800" fill="{color}">{val if OK else "—"}</text></g>''')
-          stats = f'''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="270" viewBox="0 0 490 270" role="img" aria-label="GitHub stats">
-          <defs>{SHINE}</defs>{FRAME}{title("GITHUB STATS")}{''.join(cells)}</svg>'''
-          open(os.path.join(OUT, "stats-card.svg"), "w", encoding="utf-8").write(stats)
+          open(os.path.join(OUT, "stats-card.svg"), "w", encoding="utf-8").write(
+              f'<svg xmlns="http://www.w3.org/2000/svg" width="490" height="270" viewBox="0 0 490 270" role="img" aria-label="GitHub stats"><defs>{SHINE}</defs>{FRAME}{title("GITHUB STATS")}{"".join(cells)}</svg>')
 
-          # ── languages card ──
           COLORS = {"Python": "#3572A5", "Jupyter Notebook": "#DA5B0B", "SQL": "#e38c00", "TSQL": "#e38c00", "HTML": "#E34C26",
                     "CSS": "#563D7C", "JavaScript": "#F1E05A", "TypeScript": "#3178C6", "Shell": "#89E051", "Java": "#B07219",
                     "PLpgSQL": "#336790", "Scala": "#C22D40", "R": "#198CE7", "C++": "#F34B7D", "Dockerfile": "#384D54"}
@@ -126,18 +141,20 @@ jobs:
           for i, (name, b) in enumerate(top):
               pct = b / total * 100
               color = COLORS.get(name, FALL[i % len(FALL)])
-              y = 78 + i * 31
-              w = max(4, 270 * pct / 100)
-              rows.append(f'''<g><text x="24" y="{y+11}" font-family="{FONT}" font-size="13" font-weight="600" fill="#E6EDF3">{name}</text>
-          <rect x="150" y="{y}" width="270" height="12" rx="6" fill="#161B22"/>
-          <rect x="150" y="{y}" width="{w:.1f}" height="12" rx="6" fill="{color}"><animate attributeName="width" from="0" to="{w:.1f}" begin="{0.2+i*0.2:.1f}s" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+              y = 76 + i * 30
+              w = max(4, 256 * pct / 100)
+              rows.append(f'''<g><text x="24" y="{y+11}" font-family="{FONT}" font-size="13" font-weight="600" fill="#E6EDF3">{escape(name)}</text>
+          <rect x="164" y="{y}" width="256" height="12" rx="6" fill="#161B22"/>
+          <rect x="164" y="{y}" width="{w:.1f}" height="12" rx="6" fill="{color}"><animate attributeName="width" from="0" to="{w:.1f}" begin="{0.2+i*0.2:.1f}s" dur="1.1s" fill="freeze"/></rect>
           <text x="466" y="{y+11}" text-anchor="end" font-family="{FONT}" font-size="12" fill="#8B949E">{pct:.1f}%</text></g>''')
           if not rows:
-              rows.append(f'<text x="245" y="150" text-anchor="middle" font-family="{FONT}" font-size="14" fill="#8B949E">Data loads after the first workflow run</text>')
-          langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="270" viewBox="0 0 490 270" role="img" aria-label="Top languages">
-          <defs>{SHINE}</defs>{FRAME}{title("TOP LANGUAGES")}{''.join(rows)}</svg>'''
-          open(os.path.join(OUT, "langs-card.svg"), "w", encoding="utf-8").write(langs_svg)
-          print("stats:", metrics, "langs:", top)
+              if OK:
+                  rows.append(msg(["No language data found yet.", "GitHub counts code files (Python, SQL, notebooks).", "Power BI .pbix files and private repos are not counted."]))
+              else:
+                  rows.append(msg(["Language data loads after the", "first successful workflow run."]))
+          open(os.path.join(OUT, "langs-card.svg"), "w", encoding="utf-8").write(
+              f'<svg xmlns="http://www.w3.org/2000/svg" width="490" height="270" viewBox="0 0 490 270" role="img" aria-label="Top languages"><defs>{SHINE}</defs>{FRAME}{title("TOP LANGUAGES")}{"".join(rows)}</svg>')
+          print("DONE", top)
           PY
 
       - name: Commit changes
